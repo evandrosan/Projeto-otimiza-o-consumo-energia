@@ -38,3 +38,52 @@ projeto_energia/
 2. **Horas de Pico**: Identificação de períodos de maior demanda
 3. **Eficácia Tarifária**: Economia potencial com mudança de tarifa
 
+## 🚀 Como Executar
+
+### 1. Clonar o Repositório
+```bash
+git clone https://github.com/evandrosan/Projeto-otimiza-o-consumo-energia.git
+cd Projeto-otimiza-o-consumo-energia
+```
+
+### 2. Instalar Dependências
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Executar os Notebooks (na ordem)
+```bash
+jupyter notebook
+```
+
+Abra e execute os notebooks nesta sequência:
+1. **01_etl_pipeline.ipynb** - Gera os dados e cria o banco SQLite
+2. **02_analise_kpis.ipynb** - Analisa os KPIs principais
+3. **03_dashboard.ipynb** - Visualiza o dashboard completo
+
+### Requisitos
+- Python 3.8+
+- Jupyter Notebook
+- Bibliotecas: pandas, numpy, matplotlib, seaborn
+
+### Observações
+- Os dados são gerados automaticamente pelo notebook 01
+- Não é necessário rodar o `utils.py` diretamente (ele é importado pelos notebooks)
+- O banco de dados SQLite será criado em `data/energia.db`
+
+## 📊 Resultados Esperados
+
+Após executar os notebooks, você terá:
+- ✅ Banco de dados com 72.000+ registros de consumo
+- ✅ Análises de consumo por tipo, horário e região
+- ✅ Identificação de economia potencial (até 40%)
+- ✅ Dashboard com 6 visualizações integradas
+- ✅ Recomendações estratégicas para otimização
+
+## 🤝 Contribuições
+
+Sinta-se à vontade para abrir issues ou pull requests!
+
+## 📝 Licença
+
+Este projeto é de código aberto para fins educacionais.
