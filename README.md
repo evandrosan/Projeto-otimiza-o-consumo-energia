@@ -63,10 +63,3 @@ Após executar os notebooks, você terá:
 -  Dashboard com 6 visualizações integradas
 -  Recomendações estratégicas para otimização
 
-##  Contribuições
-
-Sinta-se à vontade para abrir issues ou pull requests!
-
-##  Licença
-
-Este projeto é de código aberto para fins educacionais.
