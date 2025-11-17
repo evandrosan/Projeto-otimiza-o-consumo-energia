@@ -38,7 +38,7 @@ projeto_energia/
 2. **Horas de Pico**: Identificação de períodos de maior demanda
 3. **Eficácia Tarifária**: Economia potencial com mudança de tarifa
 
-## 🚀 Como Executar
+##  Como Executar
 
 ### 1. Clonar o Repositório
 ```bash
@@ -71,19 +71,19 @@ Abra e execute os notebooks nesta sequência:
 - Não é necessário rodar o `utils.py` diretamente (ele é importado pelos notebooks)
 - O banco de dados SQLite será criado em `data/energia.db`
 
-## 📊 Resultados Esperados
+##  Resultados Esperados
 
 Após executar os notebooks, você terá:
-- ✅ Banco de dados com 72.000+ registros de consumo
-- ✅ Análises de consumo por tipo, horário e região
-- ✅ Identificação de economia potencial (até 40%)
-- ✅ Dashboard com 6 visualizações integradas
-- ✅ Recomendações estratégicas para otimização
+-  Banco de dados com 72.000+ registros de consumo
+-  Análises de consumo por tipo, horário e região
+-  Identificação de economia potencial (até 40%)
+-  Dashboard com 6 visualizações integradas
+-  Recomendações estratégicas para otimização
 
-## 🤝 Contribuições
+##  Contribuições
 
 Sinta-se à vontade para abrir issues ou pull requests!
 
-## 📝 Licença
+##  Licença
 
 Este projeto é de código aberto para fins educacionais.
