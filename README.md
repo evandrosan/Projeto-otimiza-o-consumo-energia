@@ -11,23 +11,6 @@ Analisar padrões de consumo de energia e identificar oportunidades de otimizaç
 - Identificação de consumidores com alto potencial de economia
 - Recomendações baseadas em dados
 
-##  Estrutura do Projeto
-```
-projeto_energia/
-├── data/
-│   ├── raw/              # Dados brutos simulados
-│   └── processed/        # Dados processados
-├── sql/
-│   └── schema.sql        # Estrutura do banco de dados
-├── notebooks/
-│   ├── 01_etl_pipeline.ipynb
-│   ├── 02_analise_kpis.ipynb
-│   └── 03_dashboard.ipynb
-├── src/
-│   └── utils.py          # Funções auxiliares
-└── README.md
-```
-
 ##  Tecnologias
 - **Python**: Pandas, NumPy, Matplotlib, Seaborn
 - **SQL**: SQLite (simulação de banco de dados)
